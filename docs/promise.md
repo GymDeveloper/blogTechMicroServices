@@ -30,7 +30,7 @@ try {
   console.log(err.toString())
 }
 ```
-En este caso casi si el fetch sale ok la promesa retorna ```resolve``
+En este caso casi si el fetch sale ok la promesa retorna ```resolve```
 En caso el fetch falle la promesa retorna ```reject```
 
 * Se entiende que si hace el console de reponse la promesa fue exitosa
