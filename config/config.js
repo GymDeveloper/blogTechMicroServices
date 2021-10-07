@@ -10,3 +10,6 @@ const mongo_remote =
   "mongodb+srv://root:6ixiU2NTTdQUOoY4@cluster0.wns0c.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 export const db_url = process.env.DB_URL || mongo_remote;
+
+export const database_port_microservice =
+  process.env.DATABASE_PORT_MICROSERVICE || 3001;
