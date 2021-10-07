@@ -10,9 +10,9 @@ como puedo hacer para que mi funcion espere a la peticion de facebook
 y luego devuelva el resultado
 
 Respuesta:
-Podemos usar: ```async await``
+Podemos usar: ```async await```
 
-Debemos saber que ```async await`` es una promesa
+Debemos saber que ```async await``` es una promesa
 
 Una promesa viene de una clase de ```JavaScript```
 
