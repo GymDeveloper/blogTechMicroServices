@@ -14,3 +14,18 @@ mongodb
 * ojo mongodb es una app totalmente separada de api
 - index.js: Hemos creado una nueva app que corre en el puerto 3001
 - network.js: Sera la interfaz que expoga el resultado de lo querys
+
+IDEAS
+* Movel los modelos a la carpeta mongodb
+```
+mongodb
+│___index.js
+│___network.js
+│___model
+│_____index.js
+│_____user.js
+```
+
+* user.js: Es el modelo de la tabla usuario
+* index.js: Se encarga de exportar los modelos
+* network.js: Podamos usar los modelos para llamar a store e invocar a los metoso correspondiente
